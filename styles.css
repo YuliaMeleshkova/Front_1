@@ -1,0 +1,51 @@
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+.center-block {
+    border: 3px solid red;
+    box-sizing: border-box;
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: right;
+    <!--background: url("https://public.mishka.travel/images/two_square_mini/813b8925b861da1.jpg");-->
+    background-color: blueviolet;
+}
+img {
+    width: 300px;
+}
+button{
+    margin: 10px;
+    padding: 5px 20px;
+    background: white;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+button.btn-yellow {
+    background: yellow;
+}
+button.btn-green {
+    background: green;
+}
+
+button:hover {
+    background: red;
+    color: white;
+}
+
+button:disabled {
+    background: grey;
+    color: white;
+}
+button:active {
+    background: blue;
+    color: white;
+}
+button:focus {
+     background: lightpink;
+     color: white;
+ }
