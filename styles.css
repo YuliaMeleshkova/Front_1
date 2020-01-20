@@ -1,4 +1,3 @@
-<style>
 html, body {
     margin: 0;
     padding: 0;
@@ -9,14 +8,16 @@ html, body {
     box-sizing: border-box;
     width: 500px;
     margin: 10px auto;
-    padding: 10px;
-    text-align: right;
-    <!--background: url("https://public.mishka.travel/images/two_square_mini/813b8925b861da1.jpg");-->
-    background-color: blueviolet;
+    padding: 5px;
+    text-align: center;
+    /*background-image: url(pic/whale.jpg);*/
+    background-color: lightblue;
+
 }
 img {
-    width: 300px;
+    width: 600px;
 }
+
 button{
     margin: 10px;
     padding: 5px 20px;
